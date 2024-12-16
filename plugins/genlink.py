@@ -19,7 +19,7 @@ async def allowed(_, __, message):
         return True
     return False
 
-@Client.on_message(filters.command(['link', 'plink']) & filters.create(allowed))
+@Client.on_message(filters.command(['link2', 'plink']) & filters.create(allowed))
 async def gen_link_s(bot, message):
     vj = await bot.ask(chat_id = message.from_user.id, text = "Now Send Me Your Message Which You Want To Store.")
     file_type = vj.media
