@@ -5,7 +5,7 @@
 class script(object):
     START_TXT = """<b><blockquote>ʜᴇʟʟᴏ {}, ᴍʏ ɴᴀᴍᴇ <a href=https://t.me/{}>{}</a></blockquote>
     
-ɪ ᴀᴍ【 ʟᴀᴛᴇꜱᴛ ᴀᴅᴠᴀɴᴄᴇᴅ 】ᴀɴᴅ ᴘᴏᴡᴇʀꜰᴜʟ ᴀᴜᴛᴏ ꜰɪʟᴛᴇʀ ʙᴏᴛ + └ᴀᴡᴇꜱᴏᴍᴇ ꜰɪʟᴛᴇʀ┘ + ├ꜰɪʟᴇ ꜱᴛᴏʀᴇ ʙᴏᴛ┤ + ☞ᴍᴀɴᴜᴀʟ ꜰɪᴛᴇʀ☜ ᴀɴᴅ ᢵᴄᴜꜱᴛᴏᴍɪᴢᴇᴅ ꜱʜᴏʀᴛɴᴇʀ ꜱᴜᴘᴘᴏʀᴛᢴ ᢾᴀɴᴅ ʙᴇꜱᴛ ᴜɪ ᴘᴇʀꜰᴏʀᴍᴀɴᴄᴇᢿ</b>"""
+I'ᴍ Mᴏᴠɪᴇ Bᴏᴛ! Sᴇɴᴅ Mᴇ Tʜᴇ Mᴏᴠɪᴇ Oʀ Sᴇʀɪᴇs Nᴀᴍᴇs, Aɴᴅ I'ʟʟ Sᴇɴᴅ Yᴏᴜ Tʜᴇ Fɪʟᴇs Fʀᴏᴍ Mʏ Dᴀᴛᴀʙᴀsᴇ! ✨</b>"""
 
     CLONE_START_TXT = """<b><blockquote>ʜᴇʟʟᴏ {}, ᴍʏ ɴᴀᴍᴇ <a href=https://t.me/{}>{}</a></blockquote>
     
