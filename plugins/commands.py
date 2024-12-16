@@ -133,6 +133,16 @@ async def start(client, message):
         except Exception as e:
             print(e)
             return await message.reply_text("something wrong with force subscribe.")
+
+    if len(message.command) == 2 and message.command[1].startswith('getfile'):
+        searches = message.command[1].split("-", 1)[1]
+        search = searches.replace('-', ' ')
+        message.text = search
+        msg = message
+        reply_msg = await message.reply_text(f"<b><i>Searching For {message.text} 🔍</i></b>")
+        ai_search = True
+        await auto_filter(client, name=message.text, msg=msg, reply_msg=reply_msg, ai_search=ai_search)
+        return
             
     if len(message.command) == 2 and message.command[1] in ["subscribe", "error", "okay", "help"]:
         if PREMIUM_AND_REFERAL_MODE == True:
